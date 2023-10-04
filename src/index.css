@@ -1,5 +1,11 @@
+:root{
+   --color-one: #B5C99A; /* background color --- green */
+   --color-two: #6f482b; /* font color --- brown */
+}
+
 *{
   font-family: 'Heebo';
+  color:var(--color-two);
 }
 
 body {
@@ -7,7 +13,7 @@ body {
   font-family: 'Heebo';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #B5C99A;
+  background-color: var(--color-one);
 }
 
 /* ----------HEADER---------- */
@@ -15,10 +21,11 @@ body {
   display:flex;
   justify-content: space-between;
   padding:1em 3em 1em 3em;
+  
 }
 
 .header a {
-  color:black;
+
   text-decoration: none;
   font-size:20px;
 }
@@ -32,13 +39,14 @@ body {
 
 .intro-panel{
   text-align: left;
+  
 }
 
 .intro{
   position: absolute;
   width: 506px;
   height: 105px;
-  left: 148px;
+  left: 15%;
   top: 228px;
   
   font-family: 'Heebo';
@@ -46,7 +54,6 @@ body {
   font-weight: 700;
   font-size: 44px;
   line-height: 60px;
-
 }
 
 
@@ -54,7 +61,7 @@ body {
   position: absolute;
   width: 497px;
   height: 66px;
-  left: 148px;
+  left: 15%;
   top: 373px;
 
   font-family: 'Heebo';
@@ -63,19 +70,19 @@ body {
   font-size: 16px;
   line-height: 24px; 
 
+  font-weight: bold;
 
 }
 
 .intro-resume-button{
 
-  position: absolute;
+position: absolute;
 width: 208px;
 height: 47px;
-left: 148px;
+left: 15%;
 top: 477px;
+background: #f8e3ba;
 
-/* Primary */
-background: #B5C99A;
 border-radius: 10px;
 
 font-family: 'Heebo';
@@ -84,12 +91,19 @@ font-weight: 500;
 font-size: 20px;
 line-height: 29px;
 
-;
-
 }
 
+.info-panel-photo{
 
+position: absolute;
+width: 293px;
+height: 293px;
+left: 62%;
+top: 210px;
+border:1px solid black;
+border-radius: 100%;
 
+}
 
 
 
