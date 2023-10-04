@@ -1,6 +1,8 @@
 :root{
    --color-one: #B5C99A; /* background color --- green */
    --color-two: #6f482b; /* font color --- brown */
+   --color-three: #eaa534;
+   --color-four:#cd581b;
 }
 
 *{
@@ -16,7 +18,7 @@ body {
   background-color: var(--color-one);
 }
 
-/* ----------HEADER---------- */
+/* ---------- HEADER ---------- */
 .header{
   display:flex;
   justify-content: space-between;
@@ -35,20 +37,22 @@ body {
   gap:1em;
 }
 
-/*---------- Intro Panel---------- */
+/*---------- Intro Panel ---------- */
 
 .intro-panel{
   text-align: left;
-  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:30em;
+  gap:10em;
+}
+
+.intro-panel-right{
+  width:30em;
 }
 
 .intro{
-  position: absolute;
-  width: 506px;
-  height: 105px;
-  left: 15%;
-  top: 228px;
-  
   font-family: 'Heebo';
   font-style: normal;
   font-weight: 700;
@@ -58,7 +62,7 @@ body {
 
 
 .intro-sub{
-  position: absolute;
+
   width: 497px;
   height: 66px;
   left: 15%;
@@ -75,27 +79,25 @@ body {
 }
 
 .intro-resume-button{
+  width: 208px;
+  height: 47px;
+  left: 15%;
+  top: 477px;
+  background: #f8e3ba;
 
-position: absolute;
-width: 208px;
-height: 47px;
-left: 15%;
-top: 477px;
-background: #f8e3ba;
+  border-radius: 10px;
 
-border-radius: 10px;
-
-font-family: 'Heebo';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
 
 }
 
 .info-panel-photo{
 
-position: absolute;
+
 width: 293px;
 height: 293px;
 left: 62%;
@@ -104,6 +106,18 @@ border:1px solid black;
 border-radius: 100%;
 
 }
+
+
+ /* ---------- About Section ----------- */
+.about-title{
+  font-size: 2.5em;
+}
+
+.about-info{
+  font-size: 1.5em;
+  margin: 0 15% 5% 15%;
+}
+
 
 
 
