@@ -1,15 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: 'Heebo';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Heebo';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #B5C99A;
 }
 
 /* ----------HEADER---------- */
@@ -17,7 +15,6 @@ code {
   display:flex;
   justify-content: space-between;
   padding:1em 3em 1em 3em;
-  border:1px solid red;
 }
 
 .header a {
@@ -30,3 +27,70 @@ code {
   display:flex;
   gap:1em;
 }
+
+/*---------- Intro Panel---------- */
+
+.intro-panel{
+  text-align: left;
+}
+
+.intro{
+  position: absolute;
+  width: 506px;
+  height: 105px;
+  left: 148px;
+  top: 228px;
+  
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+
+}
+
+
+.intro-sub{
+  position: absolute;
+  width: 497px;
+  height: 66px;
+  left: 148px;
+  top: 373px;
+
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px; 
+
+
+}
+
+.intro-resume-button{
+
+  position: absolute;
+width: 208px;
+height: 47px;
+left: 148px;
+top: 477px;
+
+/* Primary */
+background: #B5C99A;
+border-radius: 10px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+
+;
+
+}
+
+
+
+
+
+
+
