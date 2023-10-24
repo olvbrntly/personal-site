@@ -8,6 +8,7 @@
 *{
   font-family: 'Heebo';
   color:var(--color-two);
+
 }
 
 body {
@@ -18,11 +19,18 @@ body {
   background-color: var(--color-one);
 }
 
+.App{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .5fr 3fr 3fr .5fr;
+}
+
 /* ---------- HEADER ---------- */
 .header{
   display:flex;
   justify-content: space-between;
   padding:1em 3em 1em 3em;
+  grid-row: 1/2;
   
 }
 
@@ -40,12 +48,9 @@ body {
 /*---------- Intro Panel ---------- */
 
 .intro-panel{
-  text-align: left;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height:30em;
-  gap:10em;
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+ margin:auto;
 }
 
 .intro-panel-right{
@@ -62,7 +67,6 @@ body {
 
 
 .intro-sub{
-
   width: 497px;
   height: 66px;
   left: 15%;
@@ -97,14 +101,12 @@ body {
 
 .info-panel-photo{
 
-
-width: 293px;
-height: 293px;
-left: 62%;
-top: 210px;
-border:1px solid black;
-border-radius: 100%;
-
+  width: 293px;
+  height: 293px;
+  left: 62%;
+  top: 210px;
+  border:1px solid black;
+  border-radius: 100%;
 }
 
 
