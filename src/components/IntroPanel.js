@@ -1,5 +1,6 @@
 import React from "react";
-import '../index.css';
+
+import me from '../images/me.jpg'
 
 const IntroPanel = () =>{
     return(
@@ -12,13 +13,12 @@ const IntroPanel = () =>{
             </div>
    
             <div className="intro-panel-left"> 
-                <div className="info-panel-photo">
+                <img className="info-panel-photo" src={me} alt="Olivia Brantley headshot"/>
             </div>
 
             
             </div>
-        
-        </div>
+ 
     )
 }
 
