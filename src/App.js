@@ -3,7 +3,7 @@ import Header from './components/Header';
 import IntroPanel from './components/IntroPanel';
 import About from './components/About';
 import Contact from './components/Contact';
-import Projects from './components/Projects';
+import ProjectsCarousel from './components/ProjectsCarousel';
 
 import './App.css';
 
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <IntroPanel />
       <About />
-      <Projects />
+      <ProjectsCarousel/>
       <Contact />
     </div>
   );
