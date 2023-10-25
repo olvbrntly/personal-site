@@ -105,8 +105,9 @@ body {
 
   width: 350px;
   height: 350px;
-  border:1px solid black;
+  border:1px solid var(--color-two);
   border-radius: 100%;
+ 
 }
 
 
@@ -122,6 +123,8 @@ body {
   font-size: 1.5em;
   margin: 0 15% 5% 15%;
 }
+
+/* ---------- SKILLS ----------- */
 
 .skills{
   display:grid;
@@ -154,7 +157,26 @@ body {
 .projectCard{
   display:grid;
   grid-template-columns: 2fr 1fr;
-  
+  background: #f8e3ba;
+  font-weight: bold;
+  color:var(--color-two)
 }
 
+.project-description{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectCard-title{
+  font-size:40px;
+}
 
+.project-button{
+  background-color:var(--color-three);
+  border:none;
+}
+
+.project-button a{
+  text-decoration: none;
+  color:var(--color-two);
+}
