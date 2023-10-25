@@ -149,6 +149,12 @@ body {
   height:400px;
 }
 
+/* ----------Project Card ---------- */
 
+.projectCard{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  
+}
 
 
