@@ -49,7 +49,7 @@ body {
 
 .intro-panel{
   display:grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin:auto;
 }
 
@@ -101,10 +101,8 @@ body {
 
 .info-panel-photo{
 
-  width: 293px;
-  height: 293px;
-  left: 62%;
-  top: 210px;
+  width: 350px;
+  height: 350px;
   border:1px solid black;
   border-radius: 100%;
 }
