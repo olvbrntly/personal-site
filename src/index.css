@@ -154,6 +154,10 @@ body {
 
 /* ----------Project Card ---------- */
 
+.project-title{
+  font-size:2.5rem;
+}
+
 .projectCard{
   display:grid;
   grid-template-columns: 2fr 1fr;
@@ -179,4 +183,23 @@ body {
 .project-button a{
   text-decoration: none;
   color:var(--color-two);
+}
+
+
+/* ---------- CONTACT ---------- */
+
+.contact h2{
+  font-size: 2.5rem;
+}
+
+.contact p {
+  font-size:1.5rem;
+}
+
+.social-links{
+  font-size:30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
 }
