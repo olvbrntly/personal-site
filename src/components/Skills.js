@@ -9,7 +9,8 @@ const Skills = () =>{
                     <p>HTML</p>
                     <p>CSS</p>
                     <p>JavaScript</p>
-                    <p>Rect</p>
+                    <p>React</p>
+                    <p>React Bootstrap</p>
               
             </div>
             <div className="backend-skills skill-type">
