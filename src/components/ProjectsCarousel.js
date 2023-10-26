@@ -58,7 +58,7 @@ function ProjectsCarousel() {
 
   return (
     <>
-    <h2>Projects</h2>
+    <h2 className='project-title'><i>Projects</i></h2>
     <Carousel activeIndex={index} onSelect={handleSelect} interval={null} className="carousel" >
       {
         projects.map(project =>(
