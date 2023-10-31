@@ -129,12 +129,13 @@ body {
 .skills{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin:0 20% 0 20%
 }
 
 .skill-type{
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
 }
 
 .skills h3{
