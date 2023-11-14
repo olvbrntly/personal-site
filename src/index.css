@@ -34,15 +34,10 @@ body {
   
 }
 
-.header a {
+.header p {
   color:var(--color-two);
   text-decoration: none;
   font-size:20px;
-}
-
-.header-right{
-  display:flex;
-  gap:1em;
 }
 
 /*---------- Intro Panel ---------- */
