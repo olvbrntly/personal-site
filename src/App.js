@@ -1,21 +1,16 @@
 import React from 'react';
-import Header from './components/Header';
-import IntroPanel from './components/IntroPanel';
-import About from './components/About';
-import Contact from './components/Contact';
-import ProjectsCarousel from './components/ProjectsCarousel';
-
+import Home from './components/Home';
+import ResumePage from './components/ResumePage';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <IntroPanel />
-      <About />
-      <ProjectsCarousel/>
-      <Contact />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/resume" element={<ResumePage />}/>
+      </Routes>
+  
   );
 }
 
