@@ -34,9 +34,10 @@ body {
   
 }
 
-.header p {
+.header button {
   color:var(--color-two);
-  text-decoration: none;
+  background-color: var(--color-one);
+  border:none;
   font-size:20px;
 }
 
@@ -198,4 +199,9 @@ body {
   justify-content: center;
   align-items: center;
   gap:40px;
+}
+
+
+.resume-page{
+  text-align: center;
 }
