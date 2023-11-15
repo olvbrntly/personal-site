@@ -1,10 +1,11 @@
 import Header from "./Header"
 import Contact from "./Contact"
 import Resume from "./Resume"
+import '../index.css'
 
 const ResumePage = () =>{
     return(
-        <div className="App">
+        <div className="resume-page">
             <Header />
             <Resume />
             <Contact />
